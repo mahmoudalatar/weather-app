@@ -1,0 +1,149 @@
+body {
+  color: #bfc1c8;
+  font-family: "Roboto", "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.5;
+  background: #1e202b;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  list-style: none;
+}
+
+/* Start of nav */
+nav .navIcon div {
+  color: white;
+  line-height: 1;
+}
+nav .navIcon small {
+  font-size: 0.6rem;
+}
+
+nav ul li a {
+  padding: 5px 25px;
+  font-size: 0.9rem;
+  border: 2px solid transparent;
+  transition: 0.4s all;
+  border-radius: 30px;
+}
+nav ul li:hover a,
+.active a {
+  border-color: #009ad8;
+  color: #009ad8;
+}
+
+/* End of nav */
+/* Start of search section */
+.search {
+  background-image: url(../img/banner.png);
+  background-size: cover;
+  padding: 70px 0;
+  min-height: 350px;
+}
+
+.search form {
+  position: relative;
+  width: 90%;
+  margin: auto;
+}
+
+.search input {
+  width: 100%;
+  padding: 20px;
+  background-color: #1e202b;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+}
+
+.search button {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  padding: 15px 40px;
+  background-color: #009ad8;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+}
+
+/* End of search section */
+
+/* Start of weather section */
+.weather .row {
+  background-color: #323544;
+  border-radius: 10px;
+  margin-top: -150px;
+}
+
+.weather .card-header {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.weather .card-body {
+  padding: 30px 20px;
+}
+
+.weather .middle-card {
+  background-color: #262936;
+}
+
+.weather .card-degree .num {
+  color: white;
+  font-size: 5.5rem;
+  font-weight: 600;
+}
+
+.weather .card-weather {
+  color: #009ad8;
+}
+/* End of weather section */
+
+/* Start of footer  */
+footer {
+  background-color: #262936;
+}
+
+footer input {
+  width: 100%;
+  padding: 20px;
+  background-color: #1e202b;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+}
+
+footer button {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  padding: 15px 40px;
+  background-color: #009ad8;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+}
+
+.footer-icons li {
+  background-color: #1e202b;
+  color: #009ad8;
+  padding: 10px;
+  border-radius: 50%;
+  margin-right: 5px;
+  transition: 0.3s all;
+}
+
+.footer-icons li:hover {
+  background-color: #009ad8;
+  color: white;
+}
+/* End of footer */

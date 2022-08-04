@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Weather</title>
+  </head>
+  <body>
+    <!-- Start of navbar -->
+    <nav class="py-5">
+      <div class="container">
+        <div class="d-flex justify-content-between">
+          <div class="navIcon">
+            <a
+              class="d-flex justify-content-center align-items-center"
+              href="#"
+            >
+              <img class="me-3" src="img/logo.png" alt="" />
+              <div>
+                <h5 class="m-0">Weather</h5>
+                <small>tagline goes here</small>
+              </div>
+            </a>
+          </div>
+          <div class="col-6 justify-content-start">
+            <ul class="d-flex justify-content-around p-0 m-0">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#">News</a></li>
+              <li>
+                <a href="#">Live cameras</a>
+              </li>
+              <li>
+                <a href="#">Photos</a>
+              </li>
+              <li>
+                <a href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- End of navbar -->
+    <!-- Start of search section -->
+    <section class="search">
+      <div class="container">
+        <form>
+          <input type="text" placeholder="Find your location..." />
+          <button>Find</button>
+        </form>
+      </div>
+    </section>
+    <!-- End of search section -->
+    <!-- Start of weather section -->
+    <section class="weather">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="weather-card col-4 px-0">
+            <div
+              class="card-header d-flex justify-content-between px-3 py-2"
+            ></div>
+            <div class="card-body">
+              <div class="card-body-header"></div>
+              <div
+                class="card-degree d-flex justify-content-between align-items-center"
+              >
+                <div class="num temp"></div>
+                <div class="weather-icon col-3">
+                  <img class="w-100" src="" alt="" />
+                </div>
+              </div>
+              <div class="card-weather my-4"></div>
+              <span>
+                <img src="img/icon-umberella.png" class="me-1" alt="" />
+                20%
+              </span>
+              <span class="mx-4"> </span>
+              <span> </span>
+            </div>
+          </div>
+          <div class="weather-card middle-card next-day col-4 px-0">
+            <div class="card-header px-3 py-2 text-center"></div>
+            <div class="card-body text-center p-3 pt-5">
+              <div class="card-degree d-flex flex-column-reverse">
+                <div class="temp"></div>
+                <div class="weather-icon mb-4">
+                  <img src="" alt="" />
+                </div>
+              </div>
+              <div class="card-weather my-4"></div>
+            </div>
+          </div>
+          <div class="weather-card next-day col-4 px-0">
+            <div class="card-header px-3 py-2 text-center">
+              <p class="m-0">Saturday</p>
+            </div>
+            <div class="card-body text-center p-3 pt-5">
+              <div class="card-degree d-flex flex-column-reverse">
+                <div class="temp"></div>
+                <div class="weather-icon mb-4">
+                  <img src="img/113.png" alt="" />
+                </div>
+              </div>
+              <div class="card-weather my-4">sunny</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of weather section -->
+    <!-- Start of footer -->
+    <footer class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-8">
+            <form class="position-relative mb-4">
+              <input
+                type="text"
+                placeholder="Enter your emial to subscribe..."
+              />
+              <button>Subscribe</button>
+            </form>
+            <p>
+              Copyright 2014 Company name. Designed by Themezy. All rights
+              reservec
+            </p>
+          </div>
+          <div class="col-4 footer-icons">
+            <ul class="d-flex justify-content-center fs-6">
+              <li><i class="fab fa-facebook-f fa-fw"></i></li>
+              <li><i class="fab fa-twitter fa-fw"></i></li>
+              <li><i class="fab fa-google-plus-g fa-fw"></i></li>
+              <li><i class="fab fa-pinterest fa-fw"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End of footer -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
